@@ -1,0 +1,92 @@
+void main () {
+var assignment= "\t Assignment 2";
+  print (assignment);
+  var q1="(1)What are the various types of operators in dart? Explain with Examples.";
+  print (q1);
+  var ans1="ans=1 There are some of various types \n Arithmetic Operators example /n +,-,=,*,/,~/,% \n Relational Operators examples \n >,<,>=,<=,==,!= \n Type Test Operators examples \n is,is! \n  Bitwise Operators examples \n &,|,^,<<,>> \n  Assignment Operators examples \n =,??= \n  Logical Operators examples \n &&,||,!  ";
+  print (ans1);
+}
+
+void main () {
+var q2= "(2)Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie.";
+  print (q2);
+  var ans2="\tans=2 ";
+  print (ans2);
+  var t=600;
+  var buy=5;
+ var result=600*5;
+print ("The cost of buying 5 tickets to a movie is ${result}");  
+
+}
+
+void main() {
+  var q3="(3) How to get difference of lists in Dart? Problem: Consider you have two lists [1,2,3,4,5,6,7] and [3,5,6,7,9,10]. How would you get the difference as output? E.g. [1, 2, 4].";
+  print (q3);
+  var ans3= "\tans3";
+  print (ans3);
+  var list1=[1,2,3,4,5,6,7];
+  var list2=[3,5,6,7,9,10];
+  list1.removeWhere((e) =>list2.contains(e));
+  print (list1);
+}
+
+void main() {
+var q4="(4)What is a difference between these operators “?? And?”";
+  print (q4);
+  var ans4="ans=4 \n (?) It is a simple version of if-else statement. If the condition is true than expersion1 is executed else expersion2 is executed. \n (??) If expersion1 is non-null returns its value else returns expression2 value. ";
+  print (ans4);
+}
+void main(){
+  var q5="(5)What are the data types supported in Dart? Explain with Examples.";
+  print (q5);
+  var ans5="ans=5 \n (int,double,num) \n 1,2,8.5.6,12.5 \n (string) \n abdul samad, usman, mudasir \n (booleans) \n true or false \n (list) \n {1,2,78} \n (Map) \n [1:blue,2:red]";
+  print (ans5);
+}
+void main (){
+  var q6="(6)Solve: \n a. First declare an array and assign the numbers of the table of 7. \n b. Second declare another array and assign the numbers 1-10 \n c. Now write down the table of 7 using map.fromiterables method.";
+  print (q6);
+  var map1= [1,2,3,4,5,6,7,8,9,10];
+  var map2= [7,14,21,28,35,42,49,56,63,70];
+  var result=Map.fromIterables(map1,map2);
+  print (result);
+}
+void main(){
+ var q7=" (7) Declare 5 legal & 5 illegal variable names.";
+  print (q7);
+  var ans7="ans=7 \n 5 leagal variable names \n 1.Variable name can consist of letter and alphabets. \n 2.Keywords are not allowed to use as a variable name. \n 3.Blank spaces are not allowed in variable name. \n 4.First character of variable should always be alphabet and cannot be digit. \n 5.Special characters like #, is not allowed except the underscore (_) and the dollar  sign. \n \n Illegal variable names \n 1.NonIdentifiers  keywords. \n 2.Identifiers can not contain alphabets and numbers. \n 3.Contain spaces and special characters. \n 4. Begin with a number. \n 5.Variable name can not consist of letter and alphabets";
+  print (ans7);
+}
+void main (){
+  var q8="Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result.";
+  print (q8);
+  var ans8="ans=8 \n";
+  var  map=["H","Y","D","E","R","A","B","A","D"];
+  map.removeRange(0,5);
+    map.insert(0,"I,S,L,A,M");
+  print(map);
+}
+void main(){
+  var q9="(9) Write a program to generate your K-Electric bill 7. All the amounts should be rounded off to 2 decimal places. Display the following fields:"
+"\na. Customer Name"
+"\nb. Current Month"
+"\nc. Number of units"
+"\nd. Charges per unit"
+"\ne. Net Amount Payable (within Due Date)"
+"\nf. Late Payment Surcharge \ng. Gross Amount Payable (after Due Date) Where, Net Amount Payable (within Due Date) = Number of units * Charges per unit & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge\n\n";
+print(q9);
+  var name="\tans=9\n Customer Name:Abdul Samad \n Current Month:September-2021 ";
+  print (name);
+  var name1="Number of units:  \tCharges per unit:  \tNet Amount Payable (within Due Date):  \t Late Payment Surcharge:  \t Gross Amount Payable(after Due Date) ";
+  print (name1);
+  var data=" 578                  \t3                    \t5000                                    \t5900                  \t5000+100"  ;
+  
+  print(data);
+}
+void main(){
+ var q10="(10) Write a program to store 3 student names in an array. Take another array to store score of these three students. Assume that total marks are 500 for each student, display the scores & percentages of students." ;
+  print (q10);
+  var name="\tans=10\nSubjects  \tObtained marks  \tTotal marks  \tPercentage";
+  print (name);
+  var name1="Math  \t\t78 \t\t\t100 \t\t79.6%  \nPhysics \t85 \t\t\t100  \nChemistry\t69 \t\t\t100  \nUrdu \t\t92 \t\t\t100  \nEnglish \t74 \t\t\t100 ";
+  print(name1);
+}
